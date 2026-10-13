@@ -42,11 +42,14 @@ jobs:
     needs: tests
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: Backend/lab1v20206
+
     permissions:
       contents: read
 
     steps:
-
       - name: Checkout
         uses: actions/checkout@v4
 
@@ -56,6 +59,7 @@ jobs:
           distribution: temurin
           java-version: '17'
           cache: maven
+          cache-dependency-path: Backend/lab1v20206/pom.xml
 
       - name: Java version
         run: java -version
