@@ -1,5 +1,16 @@
 [![CI/CD Pipeline](https://github.com/DanielDurango5/lab1v2026-banco/actions/workflows/build.yml/badge.svg)](https://github.com/DanielDurango5/lab1v2026-banco/actions/workflows/build.yml)
 [![Quality gate status](https://sonarcloud.io/api/project_badges/measure?project=DanielDurango5_lab1v2026-banco&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=DanielDurango5_lab1v2026-banco)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=DanielDurango5_lab1v2026-banco&metric=coverage)](https://sonarcloud.io/summary/new_code?id=DanielDurango5_lab1v2026-banco)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=DanielDurango5_lab1v2026-banco&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=DanielDurango5_lab1v2026-banco)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=DanielDurango5_lab1v2026-banco&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=DanielDurango5_lab1v2026-banco)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=DanielDurango5_lab1v2026-banco&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=DanielDurango5_lab1v2026-banco)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=DanielDurango5_lab1v2026-banco&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=DanielDurango5_lab1v2026-banco)
+[![Maintainability issues](https://sonarcloud.io/api/project_badges/measure?project=DanielDurango5_lab1v2026-banco&metric=software_quality_maintainability_issues)](https://sonarcloud.io/summary/new_code?id=DanielDurango5_lab1v2026-banco)
+[![Reliability issues](https://sonarcloud.io/api/project_badges/measure?project=DanielDurango5_lab1v2026-banco&metric=software_quality_reliability_issues)](https://sonarcloud.io/summary/new_code?id=DanielDurango5_lab1v2026-banco)
+[![Security issues](https://sonarcloud.io/api/project_badges/measure?project=DanielDurango5_lab1v2026-banco&metric=software_quality_security_issues)](https://sonarcloud.io/summary/new_code?id=DanielDurango5_lab1v2026-banco)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=DanielDurango5_lab1v2026-banco&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=DanielDurango5_lab1v2026-banco)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=DanielDurango5_lab1v2026-banco&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=DanielDurango5_lab1v2026-banco)
+
 # Lab 1v2026 - Banco
 
 API REST de un banco sencillo desarrollada con Spring Boot, con las siguientes operaciones:
