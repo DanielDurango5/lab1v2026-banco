@@ -1,5 +1,5 @@
 [![CI/CD Pipeline](https://github.com/DanielDurango5/lab1v2026-banco/actions/workflows/build.yml/badge.svg)](https://github.com/DanielDurango5/lab1v2026-banco/actions/workflows/build.yml)
-
+[![Quality gate status](https://sonarcloud.io/api/project_badges/measure?project=DanielDurango5_lab1v2026-banco&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=DanielDurango5_lab1v2026-banco)
 # Lab 1v2026 - Banco
 
 API REST de un banco sencillo desarrollada con Spring Boot, con las siguientes operaciones:
