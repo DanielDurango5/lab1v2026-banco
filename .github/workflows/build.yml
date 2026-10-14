@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up JDK 17
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: '17'
@@ -139,3 +139,17 @@ jobs:
           context: Backend/lab1v20206
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/lab1v20206:latest
+
+  #Deploy's job
+  deploy:
+    name: Deploy to Render
+    needs: docker
+    runs-on: ubuntu-latest
+
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+
+    steps:
+      - name: Trigger Render deploy
+        env:
+          RENDER_DEPLOY_HOOK_URL: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
+        run: curl --fail --silent --show-error "$RENDER_DEPLOY_HOOK_URL"
